@@ -1,9 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import HelloWorld from "./components/HelloWorld";
 
 function App() {
   return (
     <div className="App">
+      <h1>React Application</h1>
+      <HelloWorld></HelloWorld>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
