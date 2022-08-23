@@ -8,6 +8,7 @@ function App() {
       <h1>React Application</h1>
       <HelloWorld></HelloWorld>
       <ExpenseItem></ExpenseItem>
+      <ExpenseItem></ExpenseItem>
     </div>
   );
 }
