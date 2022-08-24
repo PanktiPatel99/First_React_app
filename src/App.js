@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 
 import HelloWorld from "./components/HelloWorld";
+import RegisterForm from "./components/RegisterForm/RegisterForm";
 import NewExpense from "./components/NewExpense/NewExpense";
 import Expenses from "./components/Expenses/Expenses";
 
@@ -36,6 +37,8 @@ const App = () => {
   return (
     <div className="App">
       <HelloWorld></HelloWorld>
+      <h1>Registration Form</h1>
+      <RegisterForm />
       <h1>React Application : Expense Tracker</h1>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
